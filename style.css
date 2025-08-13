@@ -194,14 +194,14 @@
 }
 @media (min-width: 900px){
   .main-estructure{
-    column-count: 2;
+    column-count: 3;
     margin-left: 11vh;
     margin-right: 11vh;
   }
 }
 @media (min-width: 1200px){
   .main-estructure{
-    column-count: 2;
+    column-count: 4;
     margin-left: 13vh;
     margin-right: 13vh;
   }
@@ -374,3 +374,4 @@
 .flechavolver .andtop{
   color: 7c4dff;
 }
+
