@@ -178,21 +178,51 @@
 } 
 
 .main-estructure {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-  gap: 20px;
-  justify-items: center;
-  align-items: flex-start;
-  margin-left: 100px;
-  margin-right: 100px;
+  column-count: 1;
+  
+  break-inside: avoid;
+  margin-left: 5vh;
+  margin-right: 5vh;
+}
+
+@media (min-width: 600px){
+  .main-estructure{
+    column-count: 2;
+    margin-left: 10vh;
+    margin-right: 10vh;
+  }
+}
+@media (min-width: 900px){
+  .main-estructure{
+    column-count: 2;
+    margin-left: 11vh;
+    margin-right: 11vh;
+  }
+}
+@media (min-width: 1200px){
+  .main-estructure{
+    column-count: 2;
+    margin-left: 13vh;
+    margin-right: 13vh;
+  }
+}
+
+@media (min-width: 1500px){
+  .main-estructure{
+    column-count: 5;
+    column-gap: 20px;
+    margin-left: 15vh;
+   margin-right: 15vh;
+  }
 }
 
 
-
 .uploadtdh {
+  break-inside: avoid; 
+  margin-bottom: 10px; 
+  
+  
   background: #2a2a3d;
-  width: 100%;
-  height: auto;
   border-radius: 10px;
   box-shadow: 0 0 10px black;
 
@@ -204,6 +234,11 @@
 
 .uploadtdh:hover{
   filter: brightness(1.2)
+}
+
+.img-style{
+  width: 100%;
+  height: auto;
 }
 
 .backdiv{
