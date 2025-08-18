@@ -89,20 +89,16 @@
   padding: 0%;
 }
 
-
-.button_btn{
-  font-size: 50px;
-  background: none;
-  border: none;
-  cursor: pointer;
-  margin-left: auto;
-
-  &:hover{
-    color: white;
-  }
+  .button_btn{
+    display: block;
+    font-size: 50px;
+    background: none;
+    border: none;
+   cursor: pointer;
+   margin-left: auto;
 }
 
-.button_btn svg{
+.svg1{
   color: #ccccdd;
   width: 40px;
   margin: 0%;
@@ -110,11 +106,48 @@
 
   transition: 0.3s;
 }
-
-.button_btn svg:hover{
+.svg1:hover{
   color: #7c4dff;
 }
 
+.link_2_nav{
+  display: none;
+  flex-direction: column;
+  margin-top: 10px;
+}
+
+.link_2_nav.active{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: #4b4b5fcc;
+  
+  border-radius: 5%;
+
+  padding: 5px;
+  width: 250px;
+  height: 400px;
+
+  position: fixed;
+  z-index: 9999;
+}
+
+.link_2_nav a{
+  font-size: 24px;
+  font-weight: 600;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-decoration: none;
+  color: wheat;
+}
+
+@media  (max-width: 1088px){
+  .barra_principal{
+    display: none;
+  }
+  .second_nav{
+    display: block
+  }
+}
 
 .barra_busqueda{
   display: flex;
@@ -171,19 +204,6 @@
   background-color: rgba(194, 180, 180, 0.212);
 }
 
-
-@media  (max-width: 1088px){
-  .barra_principal{
-    display: none;
-    flex-wrap: wrap;
-  }
-  .second_nav{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 8px;
-  }
-}
 
 @keyframes headanimation {
   to{
