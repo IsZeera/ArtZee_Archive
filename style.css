@@ -51,7 +51,7 @@
 @media  (max-width: 1088px){
   #h1head{
     display: none;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
   }
   #h3head{
     
@@ -59,29 +59,45 @@
     
   }
 }
+
+.divNav{
+  display: flex;
+  justify-content: center;
+  margin-right: 20px;
+}
+
 .barra_principal{
   display: flex;
-  flex-wrap: nowrap;
-  justify-content: space-evenly;
+  justify-content: center;
+  align-items: center;
+
+  border: 1px solid #2c2c38;
+  border-radius: 25px;
+  height: 30px;
+  width: 150px;
 }
+
 
 
 .barra_principal a{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: auto;
     text-decoration: none;
-    letter-spacing: 1px;
-    color: #00bcd4;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-weight: 300;
+    color: #3d94f7;
+
+    font-family: MV Boli;
+    font-weight: 600;
 
     transition: 0.5s;
 }
 
-.barra_principal a:hover{
-  color: #7c4dff;}
+.barra_principal:hover, .barra_principal a:hover{
+  color: #7c4dff;
+  border-color: #7c4dff;
+  
+}
+
 
 .second_nav{
   display: none;
@@ -178,7 +194,7 @@
 }
 
 @media  (max-width: 1088px){
-  .barra_principal{
+  .divNav{
     display: none;
   }
   .second_nav{
@@ -271,7 +287,7 @@
   margin-right: 15px;
 }
 
-@media (min-width: 550px){
+@media (min-width: 350px){
   .main-estructure{
     column-count: 2;
     margin-left: 20px;
@@ -302,34 +318,34 @@
 }
 
 
-.uploadtdh {
+
+.divConteinter{
   break-inside: avoid; 
-  margin-bottom: 10px; 
+  margin-bottom: 5px; 
   
   
   background: #2a2a3d;
   border-radius: 10px;
   box-shadow: 0 0 10px black;
-
   
-  filter: brightness(1);
-  transition: filter 0.5s;
-  transform-origin: left;
+  overflow: hidden;
 }
 
-.uploadtdh:hover{
-  filter: brightness(1.25)
-}
-
-.img-style{
+.imgStyle{
   width: 100%;
   height: auto;
+  max-height: 600px;
 }
 
+.imgStyle:hover{
+  filter: brightness(1.05);
+  scale: 1.03;
+}
+
+
 .backdiv{
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: auto auto;
+  display: flex;
+  justify-content: space-around;
 
   background-color: #2c2c38;
   box-shadow: 0 0 10px black;
@@ -337,17 +353,39 @@
   border-bottom-right-radius: 5px;
   margin: 1px;
   padding: 0;
+  height: 40px;
+}
+
+.socialmedia{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-left: 10px;
+}
+
+.iconoIG, .iconoTW, .iconoTT{
+  color: #ffffff;
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
+}
+
+.iconoIG:hover, .iconoTW:hover, .iconoTT:hover{
+  color: aqua;
 }
 
 
-.backdiv p{
+.descriptionartist{
   display: flex;
   justify-content: flex-start;
+  align-items: center;
   
   margin-left: 10px;
   color: #e0e0ff;
   letter-spacing: 1px;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: medium;
+  font-weight: 600;
 
 }
 
@@ -355,6 +393,7 @@
   display: flex;
   justify-content: center;
   justify-content: space-evenly;
+  display: none;
 }
 
 .divSvg{
@@ -369,11 +408,15 @@
 
 }
 
+
+
+
 .numeroLike{
   margin-left: -2px;
   padding: 1px;
 
   color: #ffffff;
+  
 }
 
 .divSvg svg{
@@ -394,13 +437,13 @@
 }
 
 #pie{
-  position: fixed;
   bottom: 0;
   left: 0;
   width: 100%;
   background: #0d0d14;
   padding: 10px;
   box-shadow: 0 0 5px black;
+  color: white;
   
   display: flex;
   justify-content: center;

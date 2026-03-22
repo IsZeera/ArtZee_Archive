@@ -1,0 +1,54 @@
+const contenedor = document.querySelector('.uploadtdh')
+const artes = document.querySelector('.uploadtdh')
+
+fetch("./data.json") .then(response => {
+    return response.json();
+}) .then((data) => { 
+    
+    data.forEach(art => {
+        const article = document.createElement('div')
+        article.classList.add('divConteinter')
+        article.innerHTML = `
+            <img class="imgStyle" 
+                src="${art.image}" 
+                alt="${art.alt}" 
+                title="${art.title}" 
+                width="200px" height="300px">
+
+            <div class="backdiv">
+                <p class="descriptionartist">${art.artist}</p>
+                <div class="socialmedia">
+                    <a href="${art.data.social.instagram}" target="_blank" class="iconoIG">${art.iconoIG}</a>
+                    <a href="${art.data.social.twitter}" target="_blank" class="iconoTW">${art.iconoTW}</a>
+                    <a href="${art.data.social.tiktok}" target="_blank" class="iconoTT">${art.iconoTT}</a>
+                </div>
+            </div>`
+            
+    contenedor.appendChild(article)
+    })
+})
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+const boton_menu = document.querySelector('.button_btn');
+const links = document.querySelector('.link_2_nav');
+
+boton_menu.addEventListener("click", () => {
+    links.classList.toggle("active");
+    boton_menu.classList.toggle("active")
+})
+
+
+
+
