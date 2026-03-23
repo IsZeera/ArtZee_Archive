@@ -66,3 +66,6 @@ document.addEventListener("click", (e) => {
 modal.addEventListener("click", () => {
     modal.style.display = "none";
 })
+
+
+

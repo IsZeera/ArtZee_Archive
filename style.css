@@ -285,6 +285,13 @@
   font-family: MV Boli;
 } 
 
+@media(width < 600px){
+  .h2curioso{
+    font-size: 16px;
+    margin: 10px;
+  }
+}
+
 .main-estructure {
   column-count: 1;
   
@@ -344,7 +351,8 @@
 }
 
 .imgStyle:hover{
-  filter: brightness(1.05);
+  filter: brightness(1.1);
+  scale: 1.03;
 }
 
 .img-style:active{
