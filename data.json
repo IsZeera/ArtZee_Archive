@@ -49,7 +49,7 @@
     },
 
     {
-        "image" : "/img/DibujoAza1.jpeg",
+        "image" : "img/DibujoAza1.jpeg",
         "alt" : "",
         "title" : "",
         "artist" : "Artista: Azami",
@@ -72,7 +72,7 @@
     },
 
     {
-        "image" : "/img/DibujoAza2.jpeg",
+        "image" : "img/DibujoAza2.jpeg",
         "alt" : "",
         "title" : "",
         "artist" : "Artista: Azami",
