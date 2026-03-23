@@ -113,7 +113,7 @@
 
     {
         "image" : "img/DibujoLulu1.jpeg",
-        "alt" : "",
+        "alt" : "Luz - Dibujo colorido de dos personajes.",
         "title" : "Luz - Dibujo colorido de dos personajes.",
         "artist" : "Artista: Luz",
         "iconoIG" : "<svg xmlns=\"http://www.w3.org/2000/svg\"  viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"icon icon-tabler icons-tabler-outline icon-tabler-brand-instagram\"><path stroke=\"none\" d=\"M0 0h24v24H0z\" fill=\"none\"/><path d=\"M4 8a4 4 0 0 1 4 -4h8a4 4 0 0 1 4 4v8a4 4 0 0 1 -4 4h-8a4 4 0 0 1 -4 -4l0 -8\" /><path d=\"M9 12a3 3 0 1 0 6 0a3 3 0 0 0 -6 0\" /><path d=\"M16.5 7.5v.01\" /></svg>",
@@ -135,7 +135,7 @@
     },
     {
         "image" : "img/DibujoLulu2.jpeg",
-        "alt" : "",
+        "alt" : "Luz - Dibujo anime de Makima",
         "title" : "Luz - Dibujo anime de Makima",
         "artist" : "Artista: Luz",
         "iconoIG" : "<svg xmlns=\"http://www.w3.org/2000/svg\"  viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"icon icon-tabler icons-tabler-outline icon-tabler-brand-instagram\"><path stroke=\"none\" d=\"M0 0h24v24H0z\" fill=\"none\"/><path d=\"M4 8a4 4 0 0 1 4 -4h8a4 4 0 0 1 4 4v8a4 4 0 0 1 -4 4h-8a4 4 0 0 1 -4 -4l0 -8\" /><path d=\"M9 12a3 3 0 1 0 6 0a3 3 0 0 0 -6 0\" /><path d=\"M16.5 7.5v.01\" /></svg>",
@@ -156,8 +156,8 @@
     },
     {
         "image" : "img/DibujoSule1.jpeg",
-        "alt" : "",
-        "title" : "Sule - Dibujo",
+        "alt" : "Sule - Dibujo Makima",
+        "title" : "Sule - Dibujo Makima",
         "artist" : "Artista: Sule",
         "iconoIG" : "<svg xmlns=\"http://www.w3.org/2000/svg\"  viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"icon icon-tabler icons-tabler-outline icon-tabler-brand-instagram\"><path stroke=\"none\" d=\"M0 0h24v24H0z\" fill=\"none\"/><path d=\"M4 8a4 4 0 0 1 4 -4h8a4 4 0 0 1 4 4v8a4 4 0 0 1 -4 4h-8a4 4 0 0 1 -4 -4l0 -8\" /><path d=\"M9 12a3 3 0 1 0 6 0a3 3 0 0 0 -6 0\" /><path d=\"M16.5 7.5v.01\" /></svg>",
         "iconoTW" : "<svg xmlns=\"http://www.w3.org/2000/svg\"  viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"icon icon-tabler icons-tabler-outline icon-tabler-brand-x\"><path stroke=\"none\" d=\"M0 0h24v24H0z\" fill=\"none\"/><path d=\"M4 4l11.733 16h4.267l-11.733 -16l-4.267 0\" /><path d=\"M4 20l6.768 -6.768m2.46 -2.46l6.772 -6.772\" /></svg>",
