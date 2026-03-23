@@ -144,10 +144,12 @@
   background: #1a1a2e;
   border-radius: 50%;
 
-  &:hover{
+  
+}
+
+.svg2 svg:hover{
     color: #7c4dff;
   }
-}
 
 .button_btn.active .svg1{
   color: #12121c;
@@ -190,9 +192,11 @@
   text-decoration: none;
   color: #00bcd4;
 
-  &:hover{
-    color:#7c4dff;
-  }
+  
+}
+
+.link_2_nav a:hover{
+  color:#7c4dff;
 }
 
 @media  (max-width: 1088px){
@@ -277,7 +281,7 @@
   position: relative;
   display: flex;
   justify-content: center;
-  font-size: clamp(30px);
+  font-size: 30PX;
   font-family: MV Boli;
 } 
 
@@ -493,35 +497,9 @@
 
     transition: 0.5s;
 
-    &:hover{
-      color: #7c4dff;
-    }
+    
 }
 
-
-.flechavolver{ 
-  display: none;
-
-  animation: volversin linear both;
-  animation-timeline: scroll(root);
-  animation-range: 0 300px;
-  transition: transform;
-}
-
-@keyframes volversin {
-  from{
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    margin-right: 10px;
-    margin-left: 40px;
-
+#pie a:hover{
+    color: #7c4dff;
   }
-  to{
-    opacity: 80%;
-  }
-}
-
-.flechavolver .andtop{
-  color: 7c4dff;
-}
