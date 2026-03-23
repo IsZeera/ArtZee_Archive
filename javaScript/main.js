@@ -39,14 +39,6 @@ fetch("./data.json") .then(response => {
 
 
 
-
-
-
-
-
-
-
-
 const boton_menu = document.querySelector('.button_btn');
 const links = document.querySelector('.link_2_nav');
 
@@ -58,3 +50,19 @@ boton_menu.addEventListener("click", () => {
 
 
 
+
+const modal = document.getElementById("imageModal");
+const modalImg = document.getElementById("modalImg");
+
+document.addEventListener("click", (e) => {
+    
+    if(e.target.classList.contains("imgStyle")){
+        modal.style.display = "flex";
+        modalImg.src = e.target.src;
+    }
+    
+})
+
+modal.addEventListener("click", () => {
+    modal.style.display = "none";
+})
