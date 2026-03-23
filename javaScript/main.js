@@ -6,6 +6,10 @@ fetch("./data.json") .then(response => {
 }) .then((data) => { 
     
     data.forEach(art => {
+        const instagram = art.data.social.instagram ? `<a href="${art.data.social.instagram}" target="_blank" class="iconoIG">${art.iconoIG}</a>` : "";
+        const twitter = art.data.social.twitter ? `<a href="${art.data.social.twitter}" target="_blank" class="iconoTW">${art.iconoTW}</a>` : "";
+        const tiktok = art.data.social.tiktok ? `<a href="${art.data.social.tiktok}" target="_blank" class="iconoTT">${art.iconoTT}</a>` : "";
+
         const article = document.createElement('div')
         article.classList.add('divConteinter')
         article.innerHTML = `
@@ -18,16 +22,18 @@ fetch("./data.json") .then(response => {
             <div class="backdiv">
                 <p class="descriptionartist">${art.artist}</p>
                 <div class="socialmedia">
-                    <a href="${art.data.social.instagram}" target="_blank" class="iconoIG">${art.iconoIG}</a>
-                    <a href="${art.data.social.twitter}" target="_blank" class="iconoTW">${art.iconoTW}</a>
-                    <a href="${art.data.social.tiktok}" target="_blank" class="iconoTT">${art.iconoTT}</a>
+                    ${instagram}
+                    ${twitter}
+                    ${tiktok}
                 </div>
             </div>`
             
     contenedor.appendChild(article)
     })
 })
-    
+
+
+
 
 
 
