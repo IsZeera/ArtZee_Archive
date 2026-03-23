@@ -112,7 +112,7 @@
     
 
     {
-        "image" : "/img/DibujoLulu1.jpeg",
+        "image" : "img/DibujoLulu1.jpeg",
         "alt" : "",
         "title" : "Luz - Dibujo colorido de dos personajes.",
         "artist" : "Artista: Luz",
@@ -134,7 +134,7 @@
         }
     },
     {
-        "image" : "/img/DibujoLulu2.jpeg",
+        "image" : "img/DibujoLulu2.jpeg",
         "alt" : "",
         "title" : "Luz - Dibujo anime de Makima",
         "artist" : "Artista: Luz",
@@ -155,7 +155,7 @@
         }
     },
     {
-        "image" : "/img/DibujoSule1.jpeg",
+        "image" : "img/DibujoSule1.jpeg",
         "alt" : "",
         "title" : "Sule - Dibujo",
         "artist" : "Artista: Sule",
