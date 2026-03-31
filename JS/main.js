@@ -1,22 +1,42 @@
 const contenedor = document.querySelector('.uploadtdh')
+
+let artworks = [];
+
 const artes = document.querySelector('.uploadtdh')
 
 fetch("./data.json") .then(response => {
     return response.json();
 }) .then((data) => { 
-    
-    data.forEach(art => {
-        const instagram = art.data.social.instagram ? `<a href="${art.data.social.instagram}" target="_blank" class="iconoIG">${art.iconoIG}</a>` : "";
-        const twitter = art.data.social.twitter ? `<a href="${art.data.social.twitter}" target="_blank" class="iconoTW">${art.iconoTW}</a>` : "";
-        const tiktok = art.data.social.tiktok ? `<a href="${art.data.social.tiktok}" target="_blank" class="iconoTT">${art.iconoTT}</a>` : "";
+    artworks = data;
+    renderArtworks(artworks);
+})
 
-        const article = document.createElement('div')
-        article.classList.add('divConteinter')
+function renderArtworks(lista){
+
+    contenedor.innerHTML = ""; // limpia antes de renderizar
+
+    lista.forEach(art => {
+
+        const instagram = art.data.social.instagram
+            ? `<a href="${art.data.social.instagram}" target="_blank" class="iconoIG">${art.iconoIG}</a>`
+            : "";
+
+        const twitter = art.data.social.twitter
+            ? `<a href="${art.data.social.twitter}" target="_blank" class="iconoTW">${art.iconoTW}</a>`
+            : "";
+
+        const tiktok = art.data.social.tiktok
+            ? `<a href="${art.data.social.tiktok}" target="_blank" class="iconoTT">${art.iconoTT}</a>`
+            : "";
+
+        const article = document.createElement('div');
+        article.classList.add('divConteinter');
+
         article.innerHTML = `
             <img class="imgStyle" 
                 src="${art.image}" 
                 alt="${art.alt}" 
-                title="${art.title}" 
+                title="${art.title}"
                 width="200px" height="300px">
 
             <div class="backdiv">
@@ -26,11 +46,28 @@ fetch("./data.json") .then(response => {
                     ${twitter}
                     ${tiktok}
                 </div>
-            </div>`
-            
-    contenedor.appendChild(article)
-    })
-})
+            </div>
+        `;
+
+        contenedor.appendChild(article);
+    });
+}
+
+const buscador = document.getElementById("search");
+
+buscador.addEventListener("input", () => {
+
+    const texto = buscador.value.toLowerCase();
+
+    const filtrados = artworks.filter(art =>
+        art.title.toLowerCase().includes(texto) ||
+        art.artist.toLowerCase().includes(texto) ||
+        art.data.artist.toLowerCase().includes(texto) ||
+        art.data.style.toLowerCase().includes(texto)
+    );
+
+    renderArtworks(filtrados);
+});
 
 
 
