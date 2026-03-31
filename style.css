@@ -19,9 +19,10 @@
   animation-range: 0 400px;
 }
 
-
-.logoficial {
-    margin: 5px;
+.cajaLogoH1{
+  display: flex;
+  align-items: center;
+  gap: 10px;
 }
 
 #h1head {
@@ -45,18 +46,17 @@
   100% { background-position: 0% 50%; }
 }
 
-#h3head{
-  display: none;
+.logo{
+  width: 40px;
+  height: auto;
+  margin-left: 20px;
 }
+
+
 @media  (max-width: 1088px){
   #h1head{
     display: none;
     flex-wrap: nowrap;
-  }
-  #h3head{
-    
-    display: flex;
-    
   }
 }
 
@@ -525,7 +525,7 @@
   top: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(0,0,0,0.85);
+  background-color: rgba(0,0,0,0.90);
 }
 
 .imageModal img{
@@ -537,10 +537,7 @@
 
 .closeModal{
   position: absolute;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  top: 20px;
+  bottom: 30px;
   right: 30px;
   color: #ffffff;
   font-size: 18px;
@@ -552,6 +549,15 @@
 
 .closeModal:hover{
   background-color: #7c4dff;
+}
+
+@media (width > 650px){
+  .closeModal{
+    bottom: auto;
+    top: 30px;
+    right: 50px ;
+  }
+  
 }
 
 .closeModal p{
