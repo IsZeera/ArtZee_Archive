@@ -12,9 +12,9 @@
             
             
         "data": {
-            "year" : "2021",
             "style" : "anime",
             "artist" : "Eve",
+            "tipo" : "Digital",
             "social" : {
                 "instagram" : "",
                 "twitter" : "",
@@ -37,6 +37,7 @@
         "data":{
             "artist" : "Halinn",
             "style" : "anime",
+            "tipo" : "Digital",
             "social" : {
                 "instagram" : "https://www.instagram.com/halinm__",
                 "twitter" : "",
@@ -60,6 +61,7 @@
         "data":{
             "artist" : "Eve",
             "style" : "anime",
+            "tipo" : "Digital",
             "social" : {
                 "instagram" : "",
                 "twitter" : "",
@@ -81,6 +83,7 @@
         "data":{
             "artist" : "Azami",
             "style" : "Animado",
+            "tipo" : "Digital",
             "social" : {
                 "instagram" : "",
                 "twitter" : "https://x.com/azaminokaku",
@@ -102,6 +105,7 @@
         "data":{
             "artist" : "Azami",
             "style" : "Animado",
+            "tipo" : "Digital",
             "social" : {
                 "instagram" : "",
                 "twitter" : "https://x.com/azaminokaku",
@@ -123,6 +127,7 @@
         "data":{
             "artist" : "Eve",
             "style" : "Anime",
+            "tipo" : "tradicional",
             "social" : {
                 "instagram" : "",
                 "twitter" : "",
@@ -167,7 +172,8 @@
 
         "data":{
             "artist" : "Luz",
-            "style" : "Tradicional",
+            "style" : "anime",
+            "tipo" : "tradicional",
             "social" : {
                 "instagram" : "https://www.instagram.com/luluxtab",
                 "twitter" : "",
@@ -188,7 +194,8 @@
 
         "data":{
             "artist" : "Sule",
-            "style" : "Digital",
+            "style" : "Anime",
+            "tipo" : "Digital",
             "social" : {
                 "instagram" : "",
                 "twitter" : "",
