@@ -90,6 +90,7 @@ boton_menu.addEventListener("click", () => {
 
 const modal = document.getElementById("imageModal");
 const modalImg = document.getElementById("modalImg");
+const closeModal = document.querySelector(".closeModal");
 
 document.addEventListener("click", (e) => {
     
@@ -100,7 +101,7 @@ document.addEventListener("click", (e) => {
     
 })
 
-modal.addEventListener("click", () => {
+closeModal.addEventListener("click", () => {
     modal.style.display = "none";
 })
 
