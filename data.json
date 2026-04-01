@@ -2,28 +2,6 @@
 [
 
     {
-        "image" : "img/EveGoku.jpeg",
-        "alt" : "Imagen de un dibujo de goku",
-        "title" : "Eve- Dibujo de goku",
-        "artist" : "Artista: Eve",
-        "iconoIG" : "<svg xmlns=\"http://www.w3.org/2000/svg\"  viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"icon icon-tabler icons-tabler-outline icon-tabler-brand-instagram\"><path stroke=\"none\" d=\"M0 0h24v24H0z\" fill=\"none\"/><path d=\"M4 8a4 4 0 0 1 4 -4h8a4 4 0 0 1 4 4v8a4 4 0 0 1 -4 4h-8a4 4 0 0 1 -4 -4l0 -8\" /><path d=\"M9 12a3 3 0 1 0 6 0a3 3 0 0 0 -6 0\" /><path d=\"M16.5 7.5v.01\" /></svg>",
-        "iconoTW" : "<svg xmlns=\"http://www.w3.org/2000/svg\"  viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"icon icon-tabler icons-tabler-outline icon-tabler-brand-x\"><path stroke=\"none\" d=\"M0 0h24v24H0z\" fill=\"none\"/><path d=\"M4 4l11.733 16h4.267l-11.733 -16l-4.267 0\" /><path d=\"M4 20l6.768 -6.768m2.46 -2.46l6.772 -6.772\" /></svg>",
-        "iconoTT" : "<svg xmlns=\"http://www.w3.org/2000/svg\"  viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"icon icon-tabler icons-tabler-outline icon-tabler-brand-tiktok\"><path stroke=\"none\" d=\"M0 0h24v24H0z\" fill=\"none\"/><path d=\"M21 7.917v4.034a9.948 9.948 0 0 1 -5 -1.951v4.5a6.5 6.5 0 1 1 -8 -6.326v4.326a2.5 2.5 0 1 0 4 2v-11.5h4.083a6.005 6.005 0 0 0 4.917 4.917\" /></svg>",
-            
-            
-        "data": {
-            "style" : "anime",
-            "artist" : "Eve",
-            "tipo" : "Digital",
-            "social" : {
-                "instagram" : "",
-                "twitter" : "",
-                "tiktok" : "https://www.tiktok.com/@theartzzz"
-            }
-        }
-    },
-
-    {
         "image" : "img/halinn1.jpeg",
         "alt" : "Imagen de personaje femenino abrazando una almohada con un dibujo de my hero academia",
         "title" : "Halinn- Dibujo OC y My Hero Academia - Bakugo",
@@ -47,11 +25,10 @@
     },
 
     {
-        "image" : "img/Eve.jpeg",
-        "alt" : "",
-        "title" : "Eve - Dibujo de un personaje femenino",
-        "artist" : "Artista: Eve",
-        "description" : "Dibujo realizado por IsZeera que representa el personaje Makima",
+        "image" : "img/millin1.jpeg",
+        "alt" : "Imagen de personaje ENA'S happy place",
+        "title" : "ElMillix!- Dibujo ENA'S happy place",
+        "artist" : "Artista: ElMillix!",
         "iconoIG" : "<svg xmlns=\"http://www.w3.org/2000/svg\"  viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"icon icon-tabler icons-tabler-outline icon-tabler-brand-instagram\"><path stroke=\"none\" d=\"M0 0h24v24H0z\" fill=\"none\"/><path d=\"M4 8a4 4 0 0 1 4 -4h8a4 4 0 0 1 4 4v8a4 4 0 0 1 -4 4h-8a4 4 0 0 1 -4 -4l0 -8\" /><path d=\"M9 12a3 3 0 1 0 6 0a3 3 0 0 0 -6 0\" /><path d=\"M16.5 7.5v.01\" /></svg>",
         "iconoTW" : "<svg xmlns=\"http://www.w3.org/2000/svg\"  viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"icon icon-tabler icons-tabler-outline icon-tabler-brand-x\"><path stroke=\"none\" d=\"M0 0h24v24H0z\" fill=\"none\"/><path d=\"M4 4l11.733 16h4.267l-11.733 -16l-4.267 0\" /><path d=\"M4 20l6.768 -6.768m2.46 -2.46l6.772 -6.772\" /></svg>",
         "iconoTT" : "<svg xmlns=\"http://www.w3.org/2000/svg\"  viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"icon icon-tabler icons-tabler-outline icon-tabler-brand-tiktok\"><path stroke=\"none\" d=\"M0 0h24v24H0z\" fill=\"none\"/><path d=\"M21 7.917v4.034a9.948 9.948 0 0 1 -5 -1.951v4.5a6.5 6.5 0 1 1 -8 -6.326v4.326a2.5 2.5 0 1 0 4 2v-11.5h4.083a6.005 6.005 0 0 0 4.917 4.917\" /></svg>",
@@ -59,8 +36,30 @@
 
 
         "data":{
-            "artist" : "Eve",
+            "artist" : "ElMillix!",
+            "style" : "animado",
+            "tipo" : "Digital",
+            "social" : {
+                "instagram" : "https://www.instagram.com/millix._.__",
+                "twitter" : "",
+                "tiktok" : ""
+            }
+        }
+    },
+
+    {
+        "image" : "img/EveGoku.jpeg",
+        "alt" : "Imagen de un dibujo de goku",
+        "title" : "Eve- Dibujo de goku",
+        "artist" : "Artista: Eve",
+        "iconoIG" : "<svg xmlns=\"http://www.w3.org/2000/svg\"  viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"icon icon-tabler icons-tabler-outline icon-tabler-brand-instagram\"><path stroke=\"none\" d=\"M0 0h24v24H0z\" fill=\"none\"/><path d=\"M4 8a4 4 0 0 1 4 -4h8a4 4 0 0 1 4 4v8a4 4 0 0 1 -4 4h-8a4 4 0 0 1 -4 -4l0 -8\" /><path d=\"M9 12a3 3 0 1 0 6 0a3 3 0 0 0 -6 0\" /><path d=\"M16.5 7.5v.01\" /></svg>",
+        "iconoTW" : "<svg xmlns=\"http://www.w3.org/2000/svg\"  viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"icon icon-tabler icons-tabler-outline icon-tabler-brand-x\"><path stroke=\"none\" d=\"M0 0h24v24H0z\" fill=\"none\"/><path d=\"M4 4l11.733 16h4.267l-11.733 -16l-4.267 0\" /><path d=\"M4 20l6.768 -6.768m2.46 -2.46l6.772 -6.772\" /></svg>",
+        "iconoTT" : "<svg xmlns=\"http://www.w3.org/2000/svg\"  viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"icon icon-tabler icons-tabler-outline icon-tabler-brand-tiktok\"><path stroke=\"none\" d=\"M0 0h24v24H0z\" fill=\"none\"/><path d=\"M21 7.917v4.034a9.948 9.948 0 0 1 -5 -1.951v4.5a6.5 6.5 0 1 1 -8 -6.326v4.326a2.5 2.5 0 1 0 4 2v-11.5h4.083a6.005 6.005 0 0 0 4.917 4.917\" /></svg>",
+            
+            
+        "data": {
             "style" : "anime",
+            "artist" : "Eve",
             "tipo" : "Digital",
             "social" : {
                 "instagram" : "",
@@ -110,6 +109,30 @@
                 "instagram" : "",
                 "twitter" : "https://x.com/azaminokaku",
                 "tiktok" : ""
+            }
+        }
+    },
+
+    {
+        "image" : "img/Eve.jpeg",
+        "alt" : "",
+        "title" : "Eve - Dibujo de un personaje femenino",
+        "artist" : "Artista: Eve",
+        "description" : "Dibujo realizado por IsZeera que representa el personaje Makima",
+        "iconoIG" : "<svg xmlns=\"http://www.w3.org/2000/svg\"  viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"icon icon-tabler icons-tabler-outline icon-tabler-brand-instagram\"><path stroke=\"none\" d=\"M0 0h24v24H0z\" fill=\"none\"/><path d=\"M4 8a4 4 0 0 1 4 -4h8a4 4 0 0 1 4 4v8a4 4 0 0 1 -4 4h-8a4 4 0 0 1 -4 -4l0 -8\" /><path d=\"M9 12a3 3 0 1 0 6 0a3 3 0 0 0 -6 0\" /><path d=\"M16.5 7.5v.01\" /></svg>",
+        "iconoTW" : "<svg xmlns=\"http://www.w3.org/2000/svg\"  viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"icon icon-tabler icons-tabler-outline icon-tabler-brand-x\"><path stroke=\"none\" d=\"M0 0h24v24H0z\" fill=\"none\"/><path d=\"M4 4l11.733 16h4.267l-11.733 -16l-4.267 0\" /><path d=\"M4 20l6.768 -6.768m2.46 -2.46l6.772 -6.772\" /></svg>",
+        "iconoTT" : "<svg xmlns=\"http://www.w3.org/2000/svg\"  viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"icon icon-tabler icons-tabler-outline icon-tabler-brand-tiktok\"><path stroke=\"none\" d=\"M0 0h24v24H0z\" fill=\"none\"/><path d=\"M21 7.917v4.034a9.948 9.948 0 0 1 -5 -1.951v4.5a6.5 6.5 0 1 1 -8 -6.326v4.326a2.5 2.5 0 1 0 4 2v-11.5h4.083a6.005 6.005 0 0 0 4.917 4.917\" /></svg>",
+
+
+
+        "data":{
+            "artist" : "Eve",
+            "style" : "anime",
+            "tipo" : "Digital",
+            "social" : {
+                "instagram" : "",
+                "twitter" : "",
+                "tiktok" : "https://www.tiktok.com/@theartzzz"
             }
         }
     },
